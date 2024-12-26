@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
-    "type": "module" ,
+    "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node server.js"
@@ -11,8 +11,13 @@
     "keywords": [],
     "author": "",
     "dependencies": {
+        "@webarkit/nft-marker-creator-app": "^0.2.5",
+        "@zappar/imagetraining": "^4.0.6",
         "express": "^4.21.1",
         "node-static": "^0.7.11",
-        "three": "^0.138.3"
+        "three": "^0.171.0"
+    },
+    "devDependencies": {
+        "@types/three": "^0.171.0"
     }
 }
